@@ -4,10 +4,10 @@ The code is used to generate the image of an object as seen by an observer looki
 
 The graph generated for different values of n and Nrays are shown below:
 
-[Fig 1](plot_100_6.png)
-[Fig 2](plot_500_6.png)
-[Fig 3](plot_1000_7.png)
-[Fig 4](plot_1000_8.png)
+![Fig 1](./plot_100_6.png)
+![Fig 2](./plot_500_6.png)
+![Fig 3](./plot_1000_7.png)
+![Fig 4](./plot_1000_8.png)
 
 ## Code to execute
 
