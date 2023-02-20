@@ -4,6 +4,8 @@
 #include <string.h>
 #define pi 3.1415
 
+#include <omp.h>
+
 void write_file(int n, double **G)
 {
     FILE *ofp;
@@ -161,6 +163,7 @@ void Initialise(double **G, int n)
 
 int main(int argc, char *argv[])
 {
+    double t1, t2;
     int n, Nrays;
     n = atoi(argv[1]);
     Nrays = atoi(argv[2]);
@@ -170,7 +173,12 @@ int main(int argc, char *argv[])
         G[i] = (double*)malloc(n * sizeof(double));
 
     Initialise(G, n);
+
+    t1 = omp_get_wtime();
     matrix_gen(Nrays, n, G);
+    t2 = omp_get_wtime();
+
+    printf("time(s): %f\n", t2 - t1);
     write_file(n, G);
 
     for (int i = 0; i < n; i++)
