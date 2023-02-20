@@ -6,7 +6,7 @@ The graph has been generated using the file graph_generation.py
 
 The graph generated for of n=1000 and Nrays=100M is shown below:
 
-[Fig 1](plot_1000_100.png)
+![Fig 1](plot_1000_100.png)
 
 ## Code to execute
 
