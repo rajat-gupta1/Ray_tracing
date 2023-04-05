@@ -1,4 +1,4 @@
-# Project 2
+# Ray Tracing
 
 Time taken by CPU for 100M: 290s
 Time taken by GPU for 100M: 4s

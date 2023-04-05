@@ -1,4 +1,4 @@
-# Project 2 Serial
+# Ray Tracing Serial
 
 The code is used to generate the image of an object as seen by an observer looking through his window. The code asks user to provide input for n and Number of rays respectively and the remaining values have been assumed to be constant in the code. The makefile is created with the name "makefile"
 
